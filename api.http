@@ -1,1 +1,11 @@
 GET http://localhost:3000/routes
+###
+
+POST http://localhost:3000/routes
+Content-Type: application/json
+
+{
+  "title": "trabalho-casa",
+  "startPosition": { "lat":0, "lng": 1 },
+  "endPosition": { "lat": 5, "lng": 5 }
+}
