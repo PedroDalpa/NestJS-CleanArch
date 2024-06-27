@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
 import { RoutesService } from './routes.service';
 import { RoutesController } from './routes.controller';
-import { RouteInMemoryRepository } from '../@core/infra/db/route-in-memory.repository';
+import { RouteInMemoryRepository } from '../@core/infra/db/in-memory/route-in-memory.repository';
 import { CreateRouteUseCase } from '../@core/application/create-route.use-case';
 import { RouteRepositoryInterface } from '../@core/domain/route.repository';
 import { ListAllRoutesUseCase } from '../@core/application/list-all-routes.use-case';

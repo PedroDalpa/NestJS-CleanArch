@@ -13,7 +13,7 @@ export class Route {
   public readonly id: string;
   public props: Required<RouteProps>;
 
-  constructor(props: RouteProps, id?: string) {
+  private constructor(props: RouteProps, id?: string) {
     this.id = id || uuid();
 
     if (!props) {

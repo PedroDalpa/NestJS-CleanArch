@@ -1,5 +1,5 @@
 import { RouteRepositoryInterface } from 'src/@core/domain/route.repository';
-import { Route } from '../../domain/route.entity';
+import { Route } from '../../../domain/route.entity';
 
 export class RouteInMemoryRepository implements RouteRepositoryInterface {
   items: Route[] = [];
